@@ -42,7 +42,7 @@ key wearer;
 
 string g_sUpdaterName="OpenCollar Updater";
 string g_sRelease_version;
-string g_sHowToUpdate="Get an Updater at http://maps.secondlife.com/secondlife/Glint/42/97/46\nhttps://www.primbay.com/product.php?id=1782591\nhttps://marketplace.secondlife.com/p/OpenCollar-Updater/5493698 or any OpenCollar network vendor."; //put in appropriate message here.
+string g_sHowToUpdate="Get an Updater or new collar from Silkie Sabra at http://maps.secondlife.com/secondlife/Kuradov/169/154/503"; //put in appropriate message here.
 
 integer COMMAND_NOAUTH = 0;
 integer COMMAND_OWNER = 500;
@@ -244,7 +244,7 @@ integer UserCommand(integer iNum, string str, key id) // here iNum: auth value, 
         }
         else if (submenu == BTN_GET_UPDATE)
         {
-            llLoadURL(id,g_sHowToUpdate,"https://marketplace.secondlife.com/p/OpenCollar-Updater/5493698");
+            llLoadURL(id,g_sHowToUpdate,"http://kbarwest.tumblr.com/updates");
         }
     }
     else if (str == "update")
