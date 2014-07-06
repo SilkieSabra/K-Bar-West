@@ -350,7 +350,7 @@ default
 
                 if (SecondStringBigger(last_news_time, this_news_time))
                 {
-                    string news = "Newsflash " + body;
+                    string news = "\n\nK-Bar News\n\n" + body;
                     Notify(llGetOwner(), news, FALSE);
                     // last news time is remembered in memory.  We used to
                     // store it in the desc but you can't write to that while
