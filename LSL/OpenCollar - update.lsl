@@ -24,7 +24,7 @@
 // NOTE: As of version 3.706, the update script no longer uses object name or
 // description to tell it the current collar version.  Instead, it looks in the
 // "~version" notecard.  It compares the contents of that notecard with the
-// text at https://raw.github.com/opencollar/OpenCollarUpdater/beta/LSL/~version.  If the
+// text at https://raw.githubusercontent.com/SilkieSabra/K-Bar-West/master/~version.  If the
 // version online is newer, then the wearer will be advised that an update is
 // available.
 
